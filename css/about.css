@@ -1,0 +1,90 @@
+.app-btn {
+    padding-top: 0.8rem;
+}
+
+.about {
+    padding: 1rem 0;
+}
+
+
+/*start team section*/
+
+.our-team {
+    width: 100%;
+    padding: 2rem 0;
+    margin: 2rem 0;
+    background-color: rgba(128, 128, 128, 0.15);
+}
+
+.our-team h2 {
+    font-size: 1.3rem;
+    padding: 1rem 0;
+}
+
+.team {
+    width: 24%;
+    background-color: white;
+}
+
+.team img {
+    width: 100%;
+}
+
+.team .content {
+    padding: 1rem;
+}
+
+h4 {
+    font-size: 1.1rem;
+    padding: 0.5rem 0;
+}
+
+p {
+    text-align: justify;
+}
+
+
+/*end our team*/
+
+
+/*start vision section*/
+
+.vision {
+    padding: 1rem 0;
+    margin: 2rem 0;
+}
+
+.left {
+    width: 48%;
+    height: 380px;
+    border: 1px solid #e6e6e6;
+    padding: 1.3rem;
+}
+
+.left .content {
+    max-height: 200px;
+}
+
+.left img {
+    width: 100%;
+}
+
+
+/*end our vision section*/
+
+
+/*start media queries*/
+
+@media (max-width:767px) {
+    .team {
+        width: 100%;
+        margin: 1rem 0;
+    }
+    .left {
+        width: 100%;
+        margin: 1rem 0;
+    }
+    .navbar ul {
+        top: 120px;
+    }
+}

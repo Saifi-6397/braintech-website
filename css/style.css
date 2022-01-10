@@ -1,0 +1,777 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+    }
+    
+    html,
+    body {
+        width: 100%;
+        height: 100vh;
+        font-size: 15px;
+        overflow-x: hidden;
+    }
+    
+    body {
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    a {
+        text-decoration: none;
+        padding-left: 0;
+    }
+    
+    .inner {
+        max-width: 1150px;
+        margin: 0 auto;
+    }
+    
+    .flex-box {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+    /* start header*/
+    
+    .header {
+        width: 100%;
+        background-color: white;
+        padding: 1rem;
+        color: black;
+    }
+    
+    .header .logo {
+        width: 20%;
+    }
+    
+    .header .logo img {
+        width: 100%;
+    }
+    
+    .header .contact {
+        width: 30%;
+        text-align: right;
+    }
+    
+    .header .contact i {
+        background-color: green;
+        padding: 0.7rem;
+        border-radius: 100%;
+        color: white;
+        margin-right: 1rem;
+    }
+    
+    .header .contact a {
+        color: black;
+        font-size: 1rem;
+    }
+    
+    .header .contact a:hover {
+        text-decoration: underline;
+    }
+    
+    .header .social ul {
+        list-style: none;
+    }
+    
+    .header .social li {
+        margin: 0 0.9rem;
+    }
+    
+    .header .social li a {
+        font-size: 1.1rem;
+        color: #022f46;
+    }
+    /*end header*/
+    /*start navbar*/
+    
+    .navdiv {
+        margin-top: -1.5rem;
+    }
+    
+    .navbar ul {
+        list-style: none;
+        position: relative;
+    }
+    
+    .navbar ul li {
+        display: inline-block;
+        margin: 0.5rem 1.5rem;
+    }
+    
+    .navbar ul li a {
+        font-size: 1.1rem;
+        color: black;
+    }
+    
+    .navbar ul li a:hover {
+        color: #022f46;
+    }
+    
+    .mobile-btn {
+        display: none;
+        width: 100%;
+    }
+    
+    .app-btn {
+        width: 150px;
+        height: 35px;
+        text-align: center;
+        padding: 0.3rem 1rem;
+        background-color: #022f46;
+        color: white;
+        border-radius: 0.3rem;
+        display: inline-block;
+        font-size: 0.8rem;
+        padding-top: 0.5rem;
+        text-decoration: none;
+    }
+    
+    .app-btn:hover {
+        color: white;
+    }
+    
+    .navbar {
+        width: 70%;
+        text-align: right;
+    }
+    
+    .navbar ul {
+        width: 100%;
+    }
+    /*end navbar*/
+    /*start home slider*/
+    
+    .carousel-indicators [data-bs-target] {
+        background-color: #022f46;
+    }
+    
+    .carousel-item img {
+        width: 100%;
+    }
+    /*end home slider*/
+    
+    .three-box-section img {
+        width: 100%;
+        /* margin-top: -1rem; */
+    }
+    
+    .rating-section {
+        padding-bottom: 1rem;
+    }
+    
+    .rating-section .box {
+        width: 28%;
+        background-color: #022f46;
+        color: white;
+        text-align: center;
+        padding: 3.58rem;
+        position: relative;
+        top: -38px;
+        border-radius: 0 0 3rem 0;
+    }
+    
+    .rating-section .box-1 {
+        margin-left: 1rem;
+    }
+    
+    .rating-section .box-2 {
+        border-radius: 0 0 0 3rem;
+    }
+    
+    .rating-section .box-3 {
+        margin-right: 1rem;
+        border-radius: 0 0 0 3rem;
+        top: -24px;
+    }
+    
+    .fa-star {
+        padding: 0 0.5rem;
+    }
+    
+    .rating-section p {
+        font-size: 1.2rem;
+        line-height: 1.8rem;
+        padding: 1rem 1.5rem;
+    }
+    
+    .three-box-section .text {
+        /* margin-bottom: 5rem; */
+        text-align: center;
+        padding: 0 15%;
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+        padding-bottom: 2.5rem;
+        color: rgba(26, 25, 25, 0.952);
+    }
+    /*end three box section*/
+    /*start dermatoglyphics section*/
+    
+    .dermatoglyphics {
+        padding: 3rem 0;
+        width: 100%;
+    }
+    
+    .heading {
+        width: 100%;
+        text-align: center;
+        font-size: 2rem;
+        color: #022f46;
+        font-family: 'Bebas Neue', cursive;
+        letter-spacing: 2px;
+    }
+    
+    .dermatoglyphics .left {
+        width: 48%;
+        padding-left: 130px;
+    }
+    
+    .dermatoglyphics .left li {
+        margin: 1.5rem 0;
+        font-size: 1.3rem;
+        line-height: 2rem;
+    }
+    
+    .dermatoglyphics .right {
+        width: 48%;
+    }
+    
+    .dermatoglyphics .right img {
+        width: 100%;
+    }
+    
+    .more-btn {
+        background-color: whitesmoke;
+        padding: 0.7rem 1.2rem;
+        display: inline-block;
+        color: black;
+        margin: 1rem 0;
+    }
+    
+    .more-btn:hover {
+        color: blue;
+        text-decoration: underline;
+    }
+    /*end dermatoglyphics section*
+
+
+/*start aptitude section*/
+    
+    .aptitude {
+        width: 100%;
+        padding: 2rem 0;
+    }
+    
+    .aptitude .left {
+        width: 48%;
+    }
+    
+    .aptitude .left img {
+        width: 100%;
+    }
+    
+    .aptitude .right {
+        width: 48%;
+        /* margin-right: 237px; */
+    }
+    
+    .aptitude .right h3 {
+        font-size: 1.4rem;
+        padding: 1rem;
+    }
+    
+    .aptitude ul,
+    .career ul {
+        margin-left: 2rem;
+    }
+    
+    .aptitude li,
+    .career li {
+        margin: 1.5rem 0;
+        font-size: 1.3rem;
+        line-height: 2rem;
+    }
+    /*end aptitude section*
+
+/*start intelligenc section*/
+    
+    .intelligence {
+        margin: 2rem 0;
+        width: 100%;
+    }
+    
+    .intelligence .left {
+        width: 50%;
+    }
+    
+    .intelligence .right {
+        width: 47%;
+    }
+    /*end intelligenc section*/
+    /*start career section*/
+    
+    .career {
+        width: 100%;
+        padding: 0;
+        padding-bottom: 3rem;
+    }
+    
+    .career .left {
+        width: 44%;
+    }
+    
+    .career .left img {
+        width: 100%;
+    }
+    
+    .career .right {
+        width: 50% !important;
+        padding-right: 100px;
+    }
+    
+    .career .right ul {
+        margin: 0;
+    }
+    /*end career section*/
+    /*start achievement section*/
+    
+    .achievement {
+        width: 100%;
+        height: 500px;
+        background-image: url(../images/achievementbg.webp);
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 2rem 0;
+    }
+    
+    .achievement .number-box {
+        padding: 0rem 5rem;
+        color: #022f46;
+        text-align: center;
+    }
+    
+    .achievement .number-box h1 {
+        font-size: 3rem;
+        font-weight: bolder;
+    }
+    
+    .achievement .number-box h4 {
+        font-size: 1.2rem;
+        font-weight: bolder;
+    }
+    
+    .achievement .number-box .box-4 {
+        margin-top: 1rem;
+    }
+    
+    .team-section {
+        margin-top: -250px;
+    }
+    
+    .team-container {
+        width: 100%;
+        padding: 3rem 0;
+    }
+    
+    .team-container .team-box {
+        padding: 1rem;
+        background-color: white;
+        border-bottom: 5px solid #022f46;
+    }
+    
+    .team-box p {
+        padding-bottom: 1rem;
+        line-height: 2rem;
+        text-align: justify;
+        font-size: 1.1rem;
+    }
+    
+    .person-div .left {
+        width: 30%;
+    }
+    
+    .person-div .right {
+        width: 65%;
+    }
+    
+    .person-div img {
+        width: 100%;
+    }
+    /*end achievement section*/
+    /*start associate section*/
+    
+    .associate {
+        padding: 2rem 0;
+    }
+    
+    .associate h1 {
+        font-size: 3rem;
+    }
+    
+    .associate h3 {
+        text-align: center;
+        letter-spacing: 2px;
+        font-size: 1.3rem;
+    }
+    
+    .school-box {
+        padding: 2rem 0;
+    }
+    
+    .school-box .box {
+        border: 1px solid #e6e6e6;
+    }
+    
+    .associate img {
+        width: 100%;
+    }
+    /*end associate section*/
+    /*start blog section*/
+    
+    .blog {
+        padding: 2rem 0;
+    }
+    
+    .blog h1 {
+        font-size: 3rem;
+    }
+    
+    .blog-box {
+        width: 32%;
+        height: 600px;
+        overflow: hidden;
+        margin: 1rem 0;
+        border: 1px solid #e6e6e6;
+    }
+    
+    .blog-box .content {
+        padding: 1rem;
+    }
+    
+    .blog-box .content h2 {
+        color: black;
+        padding: 0.9rem 0;
+        font-size: 1.3rem;
+    }
+    
+    .blog-box .content h5 {
+        color: black;
+        padding-bottom: 1rem;
+        font-size: 1.1rem;
+    }
+    
+    .blog-box .content p {
+        line-height: 1.5rem;
+        text-align: justify;
+    }
+    
+    .blog-box img {
+        width: 100%;
+    }
+    
+    .blog-btn-div {
+        text-align: center;
+        margin: 2rem 0;
+    }
+    
+    .blog-btn {
+        width: 120px;
+    }
+    /* end blog section */
+    /*start footer*/
+    
+    .line-logo-div {
+        margin: 1rem 0;
+    }
+    
+    .left-line,
+    .right-line {
+        width: 35%;
+        height: 4px;
+        background-color: #022f46;
+    }
+    
+    .footer-logo {
+        width: 30%;
+        text-align: center;
+    }
+    
+    .footer-logo img {
+        width: 70%;
+    }
+    
+    .footer {
+        width: 100%;
+    }
+    
+    .footer ul {
+        list-style: none;
+    }
+    
+    .footer-nav {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .footer-nav ul li a {
+        color: black;
+    }
+    
+    .footer-social {
+        margin: 1rem 0;
+    }
+    
+    .footer-social ul {
+        width: 20%;
+        margin: 0 auto;
+    }
+    
+    .footer-social i {
+        color: black;
+    }
+    
+    .footer .main-box {
+        align-items: flex-start;
+        padding: 1rem 0;
+    }
+    
+    .footer-box {
+        width: 20%;
+    }
+    
+    .footer-box ul {
+        padding-left: 0;
+    }
+    
+    .footer-box hr {
+        width: 15%;
+        height: 3px;
+        background-color: black;
+        margin: 0.5rem 0;
+    }
+    
+    .footer-box h4 {
+        font-size: 1.1rem;
+    }
+    
+    .footer-box li {
+        margin: 0.6rem 0;
+    }
+    
+    .footer-box li a {
+        color: black;
+    }
+    
+    .bootom-nav-contact-div {
+        width: 100%;
+        align-items: flex-end;
+        margin-top: -180px;
+    }
+    
+    .nav-btm {
+        width: 70%;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+    
+    .nav-btm li {
+        display: inline-block;
+        margin: 1rem;
+    }
+    
+    .nav-btm li a {
+        color: #022f46;
+    }
+    
+    .nav-btm li a:hover {
+        text-decoration: underline;
+    }
+    
+    .vertical-line {
+        font-size: 30px;
+        position: relative;
+        top: 5px;
+    }
+    
+    .contact-div {
+        width: 25%;
+        background-color: #022f46;
+        color: white;
+        padding: 2rem 0;
+        padding-left: 4rem;
+        border-radius: 100% 50% 0 0;
+    }
+    
+    .contact-div ul {
+        list-style: none;
+        padding-left: 0;
+    }
+    
+    .contact-div ul li {
+        margin: 1rem 0;
+    }
+    
+    .contact-div h1 {
+        padding-top: 3rem;
+        font-size: 1.5rem;
+    }
+    
+    .contact-div a {
+        color: white;
+        font-size: 0.9rem;
+    }
+    
+    .contact-div a:hover {
+        text-decoration: underline;
+    }
+    
+    .contact-div i {
+        margin-right: .5rem;
+    }
+    
+    .copyright-div {
+        background-color: #022f46;
+        color: white;
+        margin-bottom: 1rem;
+    }
+    
+    .copy-nav {
+        margin-bottom: 0;
+    }
+    
+    .copy-nav li a {
+        color: white;
+    }
+    /*start media queries for mobile screen*/
+    
+    @media (max-width:767px) {
+        html {
+            font-size: 14px;
+        }
+        .inner {
+            width: 90%;
+        }
+        .header {
+            padding-left: 0;
+        }
+        .header .logo {
+            width: 40%;
+            padding-bottom: 1rem;
+        }
+        .header .contact {
+            width: 60%;
+        }
+        .header .social {
+            display: none;
+        }
+        .navdiv {
+            margin-top: -50px;
+            margin-bottom: 1rem;
+        }
+        .navdiv .btn-div {
+            width: 100%;
+            text-align: right;
+            padding-right: 0.9rem;
+        }
+        .mobile-btn {
+            font-size: 1.5rem;
+            display: block;
+            position: relative;
+            top: 30px;
+        }
+        .navbar ul {
+            position: absolute;
+            top: 100px;
+            display: none;
+            background-color: white;
+            z-index: 10;
+            width: 140%;
+            text-align: left;
+            padding-left: 0.5rem;
+        }
+        .navbar ul li {
+            width: 100%;
+            margin: 0.7rem 0rem;
+        }
+        .rating-section .box {
+            width: 100%;
+            margin: 1rem 0;
+        }
+        .dermatoglyphics .right {
+            width: 100%;
+        }
+        .dermatoglyphics .left {
+            padding-left: 0px;
+            width: 100%;
+        }
+        .dermatoglyphics .left ul {
+            margin-left: 1rem;
+        }
+        .career .left,
+        .career .right,
+        .aptitude .left,
+        .aptitude .right,
+        .intelligence .left {
+            width: 100%;
+        }
+        .intelligence .left {
+            padding: 0 1rem;
+        }
+        .career .right {
+            width: 100% !important;
+            padding: 0 2rem;
+        }
+        .achievement .number-box .box {
+            width: 100%;
+            margin: 1rem 0;
+        }
+        .team-section {
+            margin-top: 0px;
+        }
+        .school-box .box {
+            width: 100%;
+            margin: 1rem 0;
+        }
+        .blog-box {
+            width: 100%;
+        }
+        .footer-nav ul li {
+            width: 100%;
+            margin: 0.5rem 0;
+            text-align: center;
+        }
+        .footer-box {
+            width: 50%;
+        }
+        .footer-social ul {
+            width: 50%;
+        }
+        .bootom-nav-contact-div {
+            margin-top: 0px;
+        }
+        .nav-btm {
+            width: 100%;
+            margin-top: 0;
+        }
+        .nav-btm li {
+            width: 100%;
+            margin: 0.5rem 0;
+        }
+        .contact-div {
+            width: 100%;
+        }
+        .vertical-line {
+            display: none;
+        }
+        .copy-nav {
+            padding-bottom: 1rem;
+        }
+    }
+    
+    @media (min-width:768px) and (max-width:1150px) {
+        .inner {
+            width: 90%;
+        }
+    }
